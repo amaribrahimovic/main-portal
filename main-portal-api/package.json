@@ -1,0 +1,19 @@
+{
+  "name": "main-portal-api",
+  "version": "1.0.0",
+  "description": "The Main API used for the Main Portal, including all functionality needed for the web portal to function",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon main.js"
+  },
+  "author": "Amar Ibrahimović",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3"
+  }
+}
